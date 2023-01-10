@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(201, 178, 178);
+    width: 380px;
+    justify-content: center;
+    background-color: rgb(233, 218, 218);
+    padding: 15px 0;
+}
+img {
+    width: 377px;
+    padding: 0 15px;
+    border-radius: 30px 30px 0 0;
+}
+.section
+{
+    padding: 12px 18px;
+    background-color: white;
+}
+.perfume {
+    padding: 2px;  
+    letter-spacing: 5px;
+    margin: 0px 10px;
+}
+.gab {
+    font-size: 20px;
+}
+p {
+    padding: 20px 10px;
+}
+.rupay {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+.doller {
+    font-size: 50px;
+    color: rgb(5, 107, 73);
+}
+.cross {
+    margin: 18px 0;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.cart {
+    width: 320px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(5, 107, 73);
+    font-size: 20px;
+}

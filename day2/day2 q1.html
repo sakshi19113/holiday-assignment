@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(165, 42, 155);
+      }
+       .wrap {
+        border: 2px solid rgb(148, 33, 142);
+      } 
+      img {
+         width: 250px; 
+         height: 350px;
+      }
+      .logo {
+        column-gap: 20px;
+         display: flex; 
+         padding: 7px 12px;
+        margin: -4px;
+        background-color: rgb(212, 204, 204);
+        border-radius: 3px;
+      }
+      .a:hover {
+        cursor: pointer;
+        color: rgb(133, 44, 59);
+        transition-timing-function: ease-in-out;
+      }
+      .a {
+        display: flex;
+         flex-direction: column; 
+        row-gap: 5px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+       <div class="wrap"> 
+        <div class="img">
+          <img src="/girlpic.jpeg" alt="" />
+        </div>
+        <div class="logo">
+          <div class="a">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <p>Home</p>
+          </div>
+          <div class="a">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <p>Work</p>
+          </div>
+          <div class="a">
+            <i class="fa fa-th-large" aria-hidden="true"></i>
+            <p>Blog</p>
+          </div>
+          <div class="a">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <p>About Us</p>
+          </div>
+        </div>
+       </div> 
+  </body>
+</html>

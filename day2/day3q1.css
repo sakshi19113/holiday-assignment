@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.mainctn {
+    border: 2px solid;
+    width: 360px;
+    padding: 30px;
+    background-color: rgb(163, 177, 172);
+}
+.sub1 {
+    background-color: white;
+    padding: 5px 15px;
+}
+.join {
+    color: aqua;
+}
+.para {
+    color: rgb(155, 241, 155);
+    padding: 15px 0px;
+    font-size: 25px;
+}
+.gainaccess {
+    line-height: 25px;
+}
+.subdiv2 {
+    background-color: aqua;
+    padding: 5px 15px;
+}
+.monthly {
+    font-size: 12px;
+}
+.wrap {
+    display: flex;
+    flex-direction: row;
+    margin: 12px 0;
+}
+.twenty {
+font-size: 30px;
+}
+.per {
+    margin-left: 10px;
+    padding: 12px;
+}
+.parag {
+    margin: 0px;
+}
+button[type=submit] {
+    width: 230px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #f5cf06;;
+}
+.signup {
+    padding: 20px 0;
+}
+.subdiv3 {
+    background-color: rgb(110, 182, 158);
+    padding: 5px 15px;
+}
+.why {
+margin: 12px 0;
+font-size: 20px;
+}
+.paragraph {
+line-height: 22px;
+}

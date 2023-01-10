@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        height: 100vh;
+      }
+      .wrap {
+        width: 400px;
+        background-color: rgb(22, 21, 21);
+        border-radius: 8%;
+      }
+      .star {
+        font-size: 26px;
+        color: rgb(240, 95, 11);
+        padding: 20px 20px;
+      }
+      .txt {
+        color: antiquewhite;
+        margin: 10px 15px;
+        line-height: 26px;
+      }
+      p {
+        padding: 20px 0;
+      }
+      .btn {
+        display: flex;
+        column-gap: 40px;
+        margin: 0 13px;
+      }
+      .number {
+        border-radius: 50%;
+        padding: 10px 13px;
+        background-color: rgb(10, 10, 10);
+        color: whitesmoke;
+        cursor: pointer;
+      }
+      .number:hover {
+        background-color: rgb(71, 25, 25);
+        transition-timing-function: ease 2sec;
+      }
+      input[type="text"] {
+        width: 360px;
+        background-color: rgb(224, 87, 8);
+        border: none;
+       margin: 20px 12px; 
+        padding: 10px 0px;
+        border-radius: 50px;
+        text-indent: 140px;
+        cursor: pointer;
+      }
+      .input [type=text]:hover {
+        background-color: rgb(233, 144, 112);
+        transition-timing-function: initial;
+           }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="wrap">
+        <div class="star">
+          <span> <i class="fa fa-star" aria-hidden="true"></i></span>
+        </div>
+        <div class="txt">
+          <h2>How did we do?</h2>
+          <p>
+            Please let us know how we did with your support request.All feedback
+            is apprecieated to help us improve our offering!
+          </p>
+        </div>
+        <div class="btn">
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
+        </div>
+        <div class="input">
+          <input type="text" name="" id="" placeholder="SUBMIT" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
